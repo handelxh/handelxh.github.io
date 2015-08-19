@@ -11,12 +11,11 @@ url:
 owner:
   name:           XinHui Li
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "Life will be ok."
   email:          handelxh@163.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: handelxh
   github:  handelxh       
-  google_plus:    118194892836344281442
   facebook:   xinhuili    
   stackexchange:  
   linkedin:       
@@ -24,6 +23,7 @@ owner:
   flickr:         
   tumblr:     
   # google plus id, include the '+', eg +mmistakes
+  google_plus:
 
 # Background image to be tiled on all pages
 background: 

@@ -1,6 +1,6 @@
-title:            寸头亩鱼仔
-description:      Life will be ok!
-disqus_shortname: handelxh
+title:            Site Title
+description:      Describe your website here.
+disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -9,21 +9,21 @@ url:
 
 # Owner/author information
 owner:
-  name:           XinHui Li
+  name:           Your Name
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  github:  handelxh       
-  twitter: handelxh
-  facebook:   xinhuili    
+  twitter:        
+  facebook:       
+  github:         
   stackexchange:  
   linkedin:       
   instagram:      
   flickr:         
-  tumblr:     
+  tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus: 
+  google_plus:    +yourid
 
 # Background image to be tiled on all pages
 background: 
@@ -35,7 +35,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
+timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown

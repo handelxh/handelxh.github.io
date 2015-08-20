@@ -5,7 +5,7 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:http://handelxh.github.io
+url:
 
 # Owner/author information
 owner:
@@ -15,7 +15,7 @@ owner:
   email:          handelxh@163.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: handelxh
-  github:  handelxh       
+  github:  handelxh
   facebook:   xinhuili    
   stackexchange:  
   linkedin:       
@@ -23,10 +23,10 @@ owner:
   flickr:         
   tumblr:     
   # google plus id, include the '+', eg +mmistakes
-  google_plus:111578944807163514452
+  google_plus:
 
 # Background image to be tiled on all pages
-background: bay.jpg
+background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   

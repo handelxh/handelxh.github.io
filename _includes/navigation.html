@@ -10,18 +10,18 @@
 					<h4>{{ site.owner.name }}</h4>
 					<p>{{ site.owner.bio }}</p>
 				</li>
-				<li><a href="http://weibo.com/handelxh"><span class="btn btn-inverse">aboutt~</span></a></li>
+				<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
 				{% if site.owner.email %}<li>
 					<a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
 				</li>{% endif %}
 				{% if site.owner.twitter %}<li>
-					<a href="http://weibo.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i> Weibo</a>
+					<a href="http://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
 				</li>{% endif %}
 				{% if site.owner.facebook %}<li>
 					<a href="http://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
 				</li>{% endif %}
 				{% if site.owner.google_plus %}<li>
-					<a href="http://plus.google.com/{{ site.owner.google_plus }}"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
+					<a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
 				</li>{% endif %}
 				{% if site.owner.linkedin %}<li>
 					<a href="http://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
@@ -57,6 +57,6 @@
 	        {% assign domain = site.url %}
 	    {% endif %}
 	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-	    {% endfor %}
+	  {% endfor %}
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->

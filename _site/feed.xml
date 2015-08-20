@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ XinHui  LI }</title>
+		<description>Life will be ok.</description>		
+		<link>http://handelxh.github.io</link>
+		<atom:link href="http://handelxh.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Ad Hell</title>
+				        
+				
+					<description>I never click on ads, because I don&#39;t see any value in them.
+During the last ten years I clicked (intentionally) on literally one ad from a &lt;a href=&quot;http://bellroy.com/&quot; target=&quot;_blank&quot;&gt;wallet company&lt;/a&gt;.
+But, this company would be also my first result in my  (incognito) &lt;a href=&quot;https://www.google.no/?gfe_rd=cr&amp;ei=4saeVZ7KE6qr8we3woDICA#q=slim+card+wallet&quot; target=&quot;_blank&quot;&gt;Google search&lt;/a&gt;.
+And I was actually planning to buy a slim card wallet, I didn&#39;t start googling because of the ad.
+So, did I buy the product of the ad?
+Yes.
+Did the ad convince me to buy the product?
+No.
+An image of a product with a catchy phrase will never convince me to buy it.
+I want to do my research and evaluate my options before buying anything.
+After I evaluated a few of the &quot;slim card wallets&quot; Google results, I chose the one from the ad, for specific reasons, irrelevant to the displayed ad.
+3650 days, 1 intentionally clicked ad, 0 value, &lt;a href=&quot;http://www.wolframalpha.com/input/?i=3650+*+3+%2F+%2860+*+60%29&quot; target=&quot;_blank&quot;&gt;3&lt;/a&gt; hours of my life so far wasted on closing tabs from ads that I clicked by mistake.
+This is clearly a broken experience of the web.
+
+</description>
+				
+				<pubDate>Sat, 11 Jul 2015 00:00:00 +0800</pubDate>
+				<link>http://handelxh.github.io/tech/2015/07/11/ads.html</link>
+				<guid isPermaLink="true">http://handelxh.github.io/tech/2015/07/11/ads.html</guid>
+			</item>
+		
+			<item>
+				<title>{ Personal } Jekyll Theme</title>
+				        
+				
+					<description>As I &lt;a href=&quot;http://panossakkos.github.io/tech/2015/06/27/blogging-like-a-hacker.html&quot; target=&quot;_blank&quot;&gt;wrote&lt;/a&gt; before,
+I wanted to open-source the current theme because I believe that it adds value to the existing Jekyll themes.
+Also, I feel that I owe it back to the community, because without the existing code that I forked, I would never have the current blog.
+And I love this blog.
+
+</description>
+				
+				<pubDate>Sun, 05 Jul 2015 00:00:00 +0800</pubDate>
+				<link>http://handelxh.github.io/tech/2015/07/05/personal-jekyll-theme.html</link>
+				<guid isPermaLink="true">http://handelxh.github.io/tech/2015/07/05/personal-jekyll-theme.html</guid>
+			</item>
+		
+			<item>
+				<title>Software Lessons Learned From Assembling a 3D Printer</title>
+				        
+				
+					<description>A few weeks ago the Garage team of my office got a little present, a&lt;strike&gt;n IKEA&lt;/strike&gt; &lt;a href=&quot;http://www.vertex3dprinter.eu/&quot; target=&quot;_blank&quot;&gt;DIY 3D printer&lt;/a&gt;.
+It was zillions of bolts, nuts, wires, motors, rods and tiny plastic pieces which I couldn&#39;t imagine that they could assemble a 3D printer.
+I panicked, believing that we will miss a piece and everything will collapse in front of us.
+Whenever I have dealt with hardware so far, I was always frightened.
+You don&#39;t call methods, you screw bolts, and they have to be screwed properly, not too tight and not too loose.
+It&#39;s not uncommon that testing will not be applicable.
+You will assemble, hit a big button and if every component works, then you call it a day.
+You can&#39;t copy-paste hardware, you don&#39;t have &lt;strike&gt;a versioning control system&lt;/strike&gt; git to undo steps in an instance,
+you are on your own and mistakes can literally make your project fall apart.
+And on top of these, we shouldn&#39;t touch the rods with bare hands, because they would corrode.
+Hardware always made me feel nervous and from the point of creating personal pet-projects,
+suddenly I had to collaborate with others in order to build a pyramid.
+It was the similar feeling that you get when you start at your first job after finishing your studies.
+
+</description>
+				
+				<pubDate>Wed, 01 Jul 2015 00:00:00 +0800</pubDate>
+				<link>http://handelxh.github.io/tech/2015/07/01/lessons-learned-from-assembling-a-3d-printer.html</link>
+				<guid isPermaLink="true">http://handelxh.github.io/tech/2015/07/01/lessons-learned-from-assembling-a-3d-printer.html</guid>
+			</item>
+		
+			<item>
+				<title>Blogging Like a Hacker</title>
+				        
+				
+					<description>I don&#39;t remember exactly how many blogs I created the past years, but this one feels like the one.
+I had one blog on Tumblr and three or four on Wordpress.
+Tumblr&#39;s brand didn&#39;t align with my vision of my blog.
+I wanted a truly personal blog.
+A blog where I could share my thoughts mainly on technology but at the same time, keep it open to explore other areas.
+For example, at some point I might wanted to blog about music or personal thoughts on a viral and important matter, you name it. Tumblr wasn&#39;t the right place for this purpose, because its brand is purely recreational. On the other hand, Wordpress has a more elastic brand. You can use it for whatever purpose you want, but it was too complicated for me and of course the produced code was too heavy, given how little control you have on the generated code. Moreover, migrating a blog was a pain in the ass. After creating and deleting several blogs, I gave up Wordpress. One week ago a &lt;a href=&quot;http://dkotzias.com&quot; target=&quot;_blank&quot;&gt;friend&lt;a/&gt; told me about &lt;a href=&quot;http://www.jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; and I decided to give it a try.
+An easy decision, given my zero options at the time.
+
+</description>
+				
+				<pubDate>Sat, 27 Jun 2015 00:00:00 +0800</pubDate>
+				<link>http://handelxh.github.io/tech/2015/06/27/blogging-like-a-hacker.html</link>
+				<guid isPermaLink="true">http://handelxh.github.io/tech/2015/06/27/blogging-like-a-hacker.html</guid>
+			</item>
+		
+	</channel>
+</rss>

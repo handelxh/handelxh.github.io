@@ -1,69 +1,80 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: hpstrtheme
-reading_time:     true
-words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url:
+# Site settings
 
-# Owner/author information
-owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+url: "http://handelxh.github.io"
+title: "{ XinHui  LI }"
+description: "Life will be ok."
+keywords: "BUAA BELAB VIA UEFI AUDIO USB SSD FLASH"
+favicon: "/img/favicon.ico"
+black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: "UA-35880426-3"
+disqus-shortname: "rickon"
 
-# Background image to be tiled on all pages
-background: 
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-highlighter: pygments
-markdown:    kramdown
-gems:
-  - jekyll-sitemap
-sass:
-  sass_dir: _sass
-  style: compressed
+background-img: "/img/intro-bg.jpg"
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# About variables
 
-# Amount of post to show on home page
-paginate: 5
+me-img: "/img/me.jpg"
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
+# Blog variables
+paginate: 15
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+paginate_path: "blog/page:num"
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  #- image: "/img/career/microsoft.jpg"
+  #  date: "September 2014 - Today"
+  #  description: "Software Engineer @ Microsoft Development Center Norway, working @ the <a href=\"http://dev.office.com/officegraph\" target=\"_blank\"> Office Graph</a>"
+  #- image: "/img/career/uoa.jpg"
+  #  date: "October 2012 - August 2014"
+  #  description: "Master studies @ <a href=\"http://www.di.uoa.gr/eng\" target=\"_blank\">Department of Informatics and Telecommunications</a> on Software Engineering + <a href=\"http://scholar.google.com/citations?user=UtV6LFYAAAAJ&amp;hl=en&amp;oi=ao\" target=\"_blank\">Machine Learning researcher</a> @ <a href=\"http://kddlab.di.uoa.gr\" target=\"_blank\">KDD</a> lab"
+  #- image: "/img/career/cern.jpg"
+  #  date: "October 2011 - September 2012"
+  #  description: "Security researcher @ <a href=\"http://www.cern.ch\" target=\"_blank\">CERN</a>, developed linux kernel extensions to prevent cyber attacks"
+  - image: "/img/career/writeright.jpg"
+    date: "August 2014 - Today"
+    description: "VIA(威盛电子) <a href=\"http://www.viatech.com.cn/cn/index.jsp\" target=\"_blank\">Audio USB device FW | SSD：UEFI 、FAE Tool、WIn-Simulation</a>"
+  - image: "/img/career/pwnmail.jpg"
+    date: "June 2011 - july 2014"
+    description: "BELAB(北京市嵌入式重点实验室) <a href=\"http://www.bjut.edu.cn\" target=\"_blank\">  smart card | ETC</a>"
+  - image: "/img/career/uoa.jpg"
+    date: "September 2006 - September 2010"
+    description: "BUAA(北航) studies @ <a href=\"http://www.di.uoa.gr/eng\" target=\"_blank\">自动化-导航方向</a>"
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  #- title: "rss"
+  #  url: "/feed.xml"
+  - title: "github"
+    url: "https://github.com/handelxh"
+  - title: "weibo"
+    url: "http://weibo.com/handelxh"
+  #- title: "youtube"
+  #  url: "http://youtube.com/c/PanosSakkos"
+  #- title: "soundcloud"
+  #  url: "https://soundcloud.com/psakkos/"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]

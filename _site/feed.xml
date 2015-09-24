@@ -10,7 +10,7 @@
 				<title>笔记 随想</title>
 				        
 				
-					<description>[baidu](http://www.baidu.com)
+					<description>
 
 </description>
 				
@@ -71,31 +71,6 @@ And I love this blog.
 				<pubDate>Sun, 05 Jul 2015 00:00:00 +0800</pubDate>
 				<link>http://handelxh.github.io/tech/2015/07/05/personal-jekyll-theme.html</link>
 				<guid isPermaLink="true">http://handelxh.github.io/tech/2015/07/05/personal-jekyll-theme.html</guid>
-			</item>
-		
-			<item>
-				<title>Software Lessons Learned From Assembling a 3D Printer</title>
-				        
-				
-					<description>A few weeks ago the Garage team of my office got a little present, a&lt;strike&gt;n IKEA&lt;/strike&gt; &lt;a href=&quot;http://www.vertex3dprinter.eu/&quot; target=&quot;_blank&quot;&gt;DIY 3D printer&lt;/a&gt;.
-It was zillions of bolts, nuts, wires, motors, rods and tiny plastic pieces which I couldn&#39;t imagine that they could assemble a 3D printer.
-I panicked, believing that we will miss a piece and everything will collapse in front of us.
-Whenever I have dealt with hardware so far, I was always frightened.
-You don&#39;t call methods, you screw bolts, and they have to be screwed properly, not too tight and not too loose.
-It&#39;s not uncommon that testing will not be applicable.
-You will assemble, hit a big button and if every component works, then you call it a day.
-You can&#39;t copy-paste hardware, you don&#39;t have &lt;strike&gt;a versioning control system&lt;/strike&gt; git to undo steps in an instance,
-you are on your own and mistakes can literally make your project fall apart.
-And on top of these, we shouldn&#39;t touch the rods with bare hands, because they would corrode.
-Hardware always made me feel nervous and from the point of creating personal pet-projects,
-suddenly I had to collaborate with others in order to build a pyramid.
-It was the similar feeling that you get when you start at your first job after finishing your studies.
-
-</description>
-				
-				<pubDate>Wed, 01 Jul 2015 00:00:00 +0800</pubDate>
-				<link>http://handelxh.github.io/tech/2015/07/01/lessons-learned-from-assembling-a-3d-printer.html</link>
-				<guid isPermaLink="true">http://handelxh.github.io/tech/2015/07/01/lessons-learned-from-assembling-a-3d-printer.html</guid>
 			</item>
 		
 			<item>

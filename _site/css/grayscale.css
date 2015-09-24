@@ -167,10 +167,10 @@ a:focus {
 }
 .blog{
     display: table;
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: center;
+    text-align: ;
     color: #fff;
     background:url( /img/plane.jpg ) no-repeat bottom center scroll;
     background-color: #000;
